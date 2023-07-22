@@ -1,0 +1,101 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity Lab2P2 is
+	port
+	(
+		-- Input ports
+		A1 : in STD_LOGIC_VECTOR(3 downto 0);
+		A2 : in STD_LOGIC_VECTOR(3 downto 0);
+		B1 : in STD_LOGIC_VECTOR(3 downto 0);
+		B2 : in STD_LOGIC_VECTOR(3 downto 0);
+		sub : in STD_LOGIC;
+		latchA : in STD_LOGIC;
+		latchB : in STD_LOGIC;
+		-- Output ports
+		outA1 : out STD_LOGIC_VECTOR(6 downto 0);
+		outA2 : out STD_LOGIC_VECTOR(6 downto 0);
+		outB1 : out STD_LOGIC_VECTOR(6 downto 0);
+		outB2 : out STD_LOGIC_VECTOR(6 downto 0);
+		outS1 : out STD_LOGIC_VECTOR(6 downto 0);
+		outS2 : out STD_LOGIC_VECTOR(6 downto 0);
+		overflow : out STD_LOGIC
+	);
+end Lab2P2;
+
+architecture a of Lab2P2 is
+	-- Declarations (optional)
+	signal sum1 : std_logic_vector(3 downto 0);
+	signal sum2 : std_logic_vector(3 downto 0);
+	
+begin
+	
+	process(A1, A2)
+	begin
+		sum1 = A1
+		sum2 = A2
+	end process;
+	
+	process(latchA, latchB, A1, A2, B1, B2)
+	begin
+		if(latchA = '0') then
+			case A1 is
+				when "0000" => outA1<="0000001";
+				when "0001" => outA1<="1001111";
+				when "0010" => outA1<="0010010";
+				when "0011" => outA1<="0000110";
+				when "0100" => outA1<="1001100";
+				when "0101" => outA1<="0100100";
+				when "0110" => outA1<="0100000";
+				when "0111" => outA1<="0001111";
+				when "1000" => outA1<="0000000";
+				when "1001" => outA1<="0000100";
+				when others => outA1<="1111111";
+			end case;
+			case A2 is
+				when "0000" => outA2<="0000001";
+				when "0001" => outA2<="1001111";
+				when "0010" => outA2<="0010010";
+				when "0011" => outA2<="0000110";
+				when "0100" => outA2<="1001100";
+				when "0101" => outA2<="0100100";
+				when "0110" => outA2<="0100000";
+				when "0111" => outA2<="0001111";
+				when "1000" => outA2<="0000000";
+				when "1001" => outA2<="0000100";
+				when others => outA2<="1111111";
+			end case;
+		end if;
+		if(latchB = '0') then
+			case B1 is
+				when "0000" => outB1<="0000001";
+				when "0001" => outB1<="1001111";
+				when "0010" => outB1<="0010010";
+				when "0011" => outB1<="0000110";
+				when "0100" => outB1<="1001100";
+				when "0101" => outB1<="0100100";
+				when "0110" => outB1<="0100000";
+				when "0111" => outB1<="0001111";
+				when "1000" => outB1<="0000000";
+				when "1001" => outB1<="0000100";
+				when others => outB1<="1111111";
+			end case;
+			case B2 is
+				when "0000" => outB2<="0000001";
+				when "0001" => outB2<="1001111";
+				when "0010" => outB2<="0010010";
+				when "0011" => outB2<="0000110";
+				when "0100" => outB2<="1001100";
+				when "0101" => outB2<="0100100";
+				when "0110" => outB2<="0100000";
+				when "0111" => outB2<="0001111";
+				when "1000" => outB2<="0000000";
+				when "1001" => outB2<="0000100";
+				when others => outB2<="1111111";
+			end case;
+		end if;
+		
+	end process;
+
+end a;

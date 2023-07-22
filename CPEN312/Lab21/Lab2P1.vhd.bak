@@ -1,0 +1,45 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity Lab2P1 is
+	port
+	(
+		-- Input ports
+		data 	: in STD_LOGIC_VECTOR(7 downto 0);
+		add	: in STD_LOGIC;
+		latchA : in STD_LOGIC;
+		latchB : in STD_LOGIC;
+		-- Output ports
+		LED   : out STD_LOGIC_VECTOR(8 downto 0)
+	);
+end Lab2P1;
+
+architecture a of Lab2P1 is
+	-- Declarations (optional)
+	signal sum_temp : std_logic_vector(4 downto 0);
+	signal a : std_logic_vector(7 downto 0);
+	signal b : std_logic_vector(7 downto 0);
+	
+begin
+
+	process(a,b, sum_temp)
+	begin
+		if(add = '1') then
+			LED <= a+b;
+		else
+			LED <= a-b;
+		end if;
+	end process;
+	
+	process(latchA, latchB, data)
+	begin
+		if(latchA = '1') then
+			a <= data;
+		end if;
+		if(latchB = '1') then
+			b <= data;
+		end if;
+	end process;
+	
+
+end a;

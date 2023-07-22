@@ -1,0 +1,225 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "outA1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outA1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outA1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outA1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outA1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outA1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outA1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outA2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outA2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outA2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outA2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outA2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outA2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outA2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outB1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outB1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outB1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outB1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outB1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outB1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outB1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outB2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outB2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outB2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outB2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outB2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outB2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outB2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outS1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outS1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outS1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outS1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outS1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outS1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outS1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outS2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outS2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outS2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outS2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outS2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outS2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outS2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "overflow",
+					"strict" : false
+				},
+				{
+					"name" : "sub",
+					"strict" : false
+				},
+				{
+					"name" : "latchA",
+					"strict" : false
+				},
+				{
+					"name" : "latchB",
+					"strict" : false
+				},
+				{
+					"name" : "data1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

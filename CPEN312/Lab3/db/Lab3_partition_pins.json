@@ -1,0 +1,229 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "outH1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outH1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outH2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outH2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outH2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outH2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outH2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outH2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outH2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outM1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outM1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outM1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outM1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outM1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outM1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outM1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outM2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outM2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outM2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outM2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outM2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outM2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outM2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outS1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outS1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outS1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outS1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outS1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outS1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outS1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outS2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outS2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outS2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outS2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outS2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outS2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outS2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ALARM",
+					"strict" : false
+				},
+				{
+					"name" : "outAMPM",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "alarm_trigger",
+					"strict" : false
+				},
+				{
+					"name" : "set_time",
+					"strict" : false
+				},
+				{
+					"name" : "set_alarm",
+					"strict" : false
+				},
+				{
+					"name" : "latchH",
+					"strict" : false
+				},
+				{
+					"name" : "data1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "latchM",
+					"strict" : false
+				},
+				{
+					"name" : "latchS",
+					"strict" : false
+				},
+				{
+					"name" : "data2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "latchAMPM",
+					"strict" : false
+				},
+				{
+					"name" : "CLK_50",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
